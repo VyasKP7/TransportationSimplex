@@ -1,0 +1,61 @@
+The transportation problem is:
+a = 
+	30	80	10	20	
+	
+b = 
+	10	50	20	40	20	
+	
+C = 
+	3	4	6	8	9	
+	2	2	4	5	5	
+	2	2	2	3	2	
+	3	3	2	4	2	
+	
+Initial BFS after NWCR = 
+	10	20	0	0	0	
+	0	30	20	30	0	
+	0	0	0	10	0	
+	0	0	0	0	20	
+	
+Initial Z = 470.000000
+
+Simplex iteration 1
+X43 will enter basis
+X44 will leave basis
+
+
+Current bfs = 
+	10	20	0	0	0	
+	0	30	20	30	0	
+	0	0	0	10	0	
+	0	0	0	0	20	
+	
+Current Z = 470.000000
+
+Simplex iteration 2
+Optimal Solution Reached
+
+Optimal Solution:
+	10	20	0	0	0
+	0	30	20	30	0
+	0	0	0	10	0
+	0	0	0	0	20
+
+Constraint Check:
+All Xij >= 0
+source 1 = 30.000000, sum of bfs in row 1 = 30.000000
+source 2 = 80.000000, sum of bfs in row 2 = 80.000000
+source 3 = 10.000000, sum of bfs in row 3 = 10.000000
+source 4 = 20.000000, sum of bfs in row 4 = 20.000000
+destination 1 = 10.000000, sum of bfs in column 1 = 10.000000
+destination 2 = 50.000000, sum of bfs in column 2 = 50.000000
+destination 3 = 20.000000, sum of bfs in column 3 = 20.000000
+destination 4 = 40.000000, sum of bfs in column 4 = 40.000000
+destination 5 = 20.000000, sum of bfs in column 5 = 20.000000
+
+The solution is feasible.
+
+Optimal Cost= 470.000000
+
+
+Time Taken: 0.040909 seconds

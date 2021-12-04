@@ -1,0 +1,11 @@
+numsources numdestinations
+4 5
+a
+30 80 10 60
+b
+10 50 20 80 20
+c
+3 4 6 8 9
+2 2 4 5 5
+2 2 2 3 2
+3 3 2 4 2

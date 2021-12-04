@@ -1,0 +1,115 @@
+The transportation problem is:
+a = 
+	25	25	50	
+	
+b = 
+	15	20	30	35	
+	
+C = 
+	10	5	6	7	
+	8	2	7	6	
+	9	3	4	8	
+	
+Initial BFS after NWCR = 
+	15	10	0	0	
+	0	10	15	0	
+	0	0	15	35	
+	
+Initial Z = 665.000000
+
+Simplex iteration 1
+X13 will enter basis
+X12 will leave basis
+
+
+Current bfs = 
+	15	0	10	0	
+	0	20	5	0	
+	0	0	15	35	
+	
+Current Z = 625.000000
+
+Simplex iteration 2
+X14 will enter basis
+X13 will leave basis
+
+
+Current bfs = 
+	15	0	0	10	
+	0	20	5	0	
+	0	0	25	25	
+	
+Current Z = 595.000000
+
+Simplex iteration 3
+X21 will enter basis
+X23 will leave basis
+
+
+Current bfs = 
+	10	0	0	15	
+	5	20	0	0	
+	0	0	30	20	
+	
+Current Z = 565.000000
+
+Simplex iteration 4
+X31 will enter basis
+X11 will leave basis
+
+
+Current bfs = 
+	0	0	0	25	
+	5	20	0	0	
+	10	0	30	10	
+	
+Current Z = 545.000000
+
+Simplex iteration 5
+X24 will enter basis
+X21 will leave basis
+
+
+Current bfs = 
+	0	0	0	25	
+	0	20	0	5	
+	15	0	30	5	
+	
+Current Z = 540.000000
+
+Simplex iteration 6
+X32 will enter basis
+X34 will leave basis
+
+
+Current bfs = 
+	0	0	0	25	
+	0	15	0	10	
+	15	5	30	0	
+	
+Current Z = 535.000000
+
+Simplex iteration 7
+Optimal Solution Reached
+
+Optimal Solution:
+	0	0	0	25
+	0	15	0	10
+	15	5	30	0
+
+Constraint Check:
+All Xij >= 0
+source 1 = 25.000000, sum of bfs in row 1 = 25.000000
+source 2 = 25.000000, sum of bfs in row 2 = 25.000000
+source 3 = 50.000000, sum of bfs in row 3 = 50.000000
+destination 1 = 15.000000, sum of bfs in column 1 = 15.000000
+destination 2 = 20.000000, sum of bfs in column 2 = 20.000000
+destination 3 = 30.000000, sum of bfs in column 3 = 30.000000
+destination 4 = 35.000000, sum of bfs in column 4 = 35.000000
+
+The solution is feasible.
+
+Optimal Cost= 535.000000
+
+
+Time Taken: 0.110988 seconds
